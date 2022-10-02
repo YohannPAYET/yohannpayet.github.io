@@ -293,7 +293,7 @@
                   ? message
                   : "'" + el + "' validation failed <!-- Add attribute 'data-validation-" + el.toLowerCase() + "-message' to input to change this message -->"
               )
-            ;
+           ;
 
             $.each(
               settings.validatorTypes,
